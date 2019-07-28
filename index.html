@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pedra Papel tesoura</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Jogador</h1>
+	<img src="pedra.png"    alt="Pedra">
+	<img src="papel.png"    alt="Papel">
+	<img src="tesoura.png"  alt="Tesoura">
+
+	<form name="frmJokenpo">
+		
+    
+	<input type="radio" id="pedra"    name="grupo">Pedra
+	<input type="radio" id="papel"    name="grupo">Papel
+	<input type="radio" id="tesoura"  name="grupo">Tesoura
+
+	
+	<p>
+		<input type="button" value="JOGAR" onclick="jogar()">
+	    <input type="reset"  value="RESET"  onclick="resetar()">
+
+
+
+
+	</p>
+    
+
+
+	</form>
+    <hr>
+    <h3>Computador</h3>
+    <img src="pc.png" alt="PC" id="pc">
+    <hr>
+
+    <h3 id="placar"></h3>
+    <script src="jokenpo.js"></script>
+
+
+</body>
+</html>
